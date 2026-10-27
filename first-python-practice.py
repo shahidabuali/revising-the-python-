@@ -48,4 +48,10 @@ sub_total = price_per_unit * product_quantity
 tax_amount = (sub_total * tax_percentage) / 100 
 final_total = sub_total + tax_amount 
 print ("the product name is " , product_name , "the privce per unit of the profuct is" , str(price_per_unit) , "the product quatity is" , product_quantity , "the taxt percntage is" , str(tax_percentage) ) , "the sub total is " , str(sub_total) , "the tex amount is " , str(tax_amount) , " and the dinal total is " , str(final_total) 
-print ('the data type of product name is ' , type(product_name))
+print ('the data type of product name is ' , type(product_name)) 
+
+#checking the immutability of the strings. 
+his_name = "tony stark"
+print(his_name.upper())
+print(his_name)
+
