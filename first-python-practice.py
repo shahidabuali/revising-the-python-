@@ -55,3 +55,8 @@ his_name = "tony stark"
 print(his_name.upper())
 print(his_name)
 
+#praactcing some basic operations on strings 
+my_name = "shahida"
+print(my_name[1]) #it would print the second value of the var my_name
+print(my_name.find("hida")) 
+print(my_name.replace("shahidaS", "shalini"))
